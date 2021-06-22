@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+}
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height: 1.5;
+    color:#4F4F4F;
+    font-family: 'PT Sans', sans-serif;
+    background-color:#FFFAFA;
+    letter-spacing:3px;
+}
+h1, h2, h3, h4{
+    letter-spacing: 3px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size:2.5rem;
+}
+section{
+    padding: 4% 0;
+}
+a{
+    text-decoration:none;
+    letter-spacing:3px;
+    color:#4F4F4F;
+    font-family: 'PT Sans', sans-serif;
+}
+a:hover{
+    color:#fcb131;
+}
+i{
+    font-size: 5rem;
+}
+/* nav styles */
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 1% 10% 1% 50%;
+}
+nav a:hover{
+    color:orange
+}
+/*main section styles*/
+#main{
+    background-image: url('../header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.titles{
+    height: 80vh;
+    font-family: 'PT Sans';
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#farmFresh h2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.flexDairy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% 0 0% 0;
+}
+.flexDairy div{
+    border: 4px solid grey;
+    padding: 5% 8%;
+    font-size: 3rem;
+    background-color:#fff;
+}
