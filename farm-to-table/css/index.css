@@ -118,6 +118,7 @@ nav{
     background-color:#fff;
     border: 3px solid grey;
 }
+/* gallery styles*/
 #gallery{
     display:flex;
     justify-content: space-around;
@@ -138,7 +139,7 @@ nav{
     background-color: #fff;
     display: none;
 }
-#gallery div:hover .hide{
+#gallery div:hover .blank{
     display: block;
 }
 .barn{
@@ -151,5 +152,68 @@ nav{
     background-image: url('../images/produce.jpg');
 }
 .sheep{
-
+    background-image: url('../images/sheep.jpg');
+}
+/*Contact Styles*/
+#contact{
+    display:flex;
+    flex-wrap: wrap;
+}
+#contact h2{
+    width: 100%;
+}
+.left{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    display:flex;
+    width: 40%;
+    padding: 4% 0;
+}
+.info{
+line-height: 2;
+}
+.info h3{
+    text-align: left;
+}
+/*connect Styles*/
+footer{
+    display:flex;
+    height: 30vh;
+    justify-content: space-around;
+    color:#fff;
+    background-color: #fcb131;
+    padding: 2% 0;
+}
+footer div {
+    width:30%;
+}
+.bottomleft{
+    display: flex;
+    justify-content: space-between;
+}
+.two{
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.two a{
+    margin: 2% 0;
+    color:#fff;
+}
+.copyright{
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.two a:hover{
+    color:#4f4f4f
+}
+.copyright p:hover{
+    color:#4f4f4f;
 }
